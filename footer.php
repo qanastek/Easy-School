@@ -10,7 +10,7 @@
  */
 
 ?>
-salutation
+test 18
     
     <?php
 
