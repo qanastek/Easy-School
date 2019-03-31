@@ -60,6 +60,14 @@ Drop the theme in your WordPress theme folder.
     - Change the schedules according to your school
     - ⚠️ Fill up the terms of service
     - (Optional) Choose a footer
+    
+### Step 4 - Setup the demo website (optional)
+
+* Go in the Install_theme directory
+* Go in the import section in WordPress settings
+* Import pierredecoubertin.wordpress.2019-03-31.xml
+* Go to TablePress > Import
+* Import 2-tarifs-cantine-2019-03-31.csv
 
 ## If you want to help for translating
 
