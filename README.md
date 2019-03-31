@@ -23,9 +23,9 @@ Made in partnership with local french schools this theme is perfect for the use 
 
 ## Dependencies
 
-[Canteen Menu](https://github.com/qanastek) - For the canteen menu (Comming Soon)
+[Canteen Menu](https://github.com/qanastek/Canteen-Menu) - For the canteen menu (Comming Soon)
 
-[Next Events](https://github.com/qanastek) - For the calendar of the futurs events (Comming Soon)
+[Next Events](https://github.com/qanastek/Next-Events) - For the calendar of the futurs events (Comming Soon)
 
 [Disable Comments](https://fr.wordpress.org/plugins/disable-comments/) - For disable comments on the entire website
 
