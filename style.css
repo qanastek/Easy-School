@@ -1,0 +1,20 @@
+/*
+Theme Name: Easy School - Thème WordPress à destination des écoles primaire
+Theme URI: http://informatique-pour-tous-avignon.fr/
+Author: Labrak Yanis
+Author URI: https://www.facebook.com/yanislabrak
+Description: Ce thème WordPress simple d'utilisation et à l'interface moderne a était conçus en partenariat avec des établissement scolaire local afin de prendre en compte l'ensemble des besoins d'une école. Ce thème rassemble toutes les fonctionnalités attendu par une école primaire publique comme un menu de cantine, un blog responsive ou un calendrier des évènements à venir.
+
+Version: 1.0.1
+Text Domain: easy_school_wp
+Tags: education, theme-options, full-width-template, featured-images, custom-logo, custom-colors, grid-layout, right-sidebar, left-sidebar, two-columns
+License: MIT
+License URI: https://tldrlegal.com/license/mit-license
+*/
+
+/*Import all fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Armata');
+@import url("https://fonts.googleapis.com/css?family=Dosis:300,400,700,800");

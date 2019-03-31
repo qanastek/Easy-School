@@ -1,0 +1,72 @@
+/*
+Theme Name: Easy School - Thème WordPress à destination des écoles primaire
+Theme URI: http://informatique-pour-tous-avignon.fr/
+Author: Labrak Yanis
+Author URI: https://www.facebook.com/yanislabrak
+Description: Ce thème WordPress simple d'utilisation et à l'interface moderne a était conçus en partenariat avec des établissement scolaire local afin de prendre en compte l'ensemble des besoins d'une école. Ce thème rassemble toutes les fonctionnalités attendu par une école primaire publique comme un menu de cantine, un blog responsive ou un calendrier des évènements à venir.
+
+Version: 1.0.0
+Text Domain: easy_school_wp
+Tags: education, theme-options, full-width-template, featured-images, custom-logo, custom-colors, grid-layout, right-sidebar, left-sidebar, two-columns
+License: MIT
+License URI: https://tldrlegal.com/license/mit-license
+*/
+
+/*
+MIT License
+
+Copyright (c) 2018 Labrak Yanis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+:root
+{
+	--dark_blue: #0b3f5f; /*Basic color*/
+	--dark_purple: #2f4050;
+	--pulse_blue: #19438c;
+}
+
+/*Pied de page*/
+footer
+{
+  background-color: var(--dark_blue);
+}
+
+.post-navigation
+{
+  background-color: var(--dark_blue);
+}
+
+.gallery, .galleryid-169, .gallery-columns-3, .gallery-size-thumbnail
+{
+  background-color: var(--dark_blue);
+}
+
+/*Couleur du background des devises*/
+.devise_color
+{
+	background-color: var(--dark_blue) !important;
+}
+
+/*Couleur de la barre de navigation*/
+.nav_color
+{
+	background-color: var(--dark_blue) !important;
+}

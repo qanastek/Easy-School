@@ -1,0 +1,710 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-02-17 19:53+0100\n"
+"PO-Revision-Date: 2019-02-17 19:55+0100\n"
+"Last-Translator: \n"
+"Language-Team: Labrak Yanis\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;esc_html__;esc_html_e;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermé."
+
+#: controllers/cgu/gets.php:98
+msgid "No city registered."
+msgstr ""
+
+#: controllers/index/gets_mottos.php:75
+#: models/customizer/devises_customizer.php:60
+msgid "GROWING"
+msgstr "GRANDIR"
+
+#: controllers/index/gets_mottos.php:94
+#: models/customizer/devises_customizer.php:152
+msgid "LIVE TOGETHER"
+msgstr "VIVRE ENSEMBLE"
+
+#: controllers/index/gets_mottos.php:113
+#: models/customizer/devises_customizer.php:244
+msgid "LEARN"
+msgstr "APPRENDRE"
+
+#: controllers/index/gets_mottos.php:132
+#: models/customizer/devises_customizer.php:90
+msgid ""
+"Devenir autonome, progresser et acquérir le sens de la responsabilité tout "
+"en apprenant."
+msgstr ""
+
+#: controllers/index/gets_mottos.php:151
+#: models/customizer/devises_customizer.php:182
+msgid ""
+"Apprendre le respect de soi et des autres, respecter l’autorité des équipes "
+"éducatives, mettre en priorité l’entraide."
+msgstr ""
+
+#: controllers/index/gets_mottos.php:170
+#: models/customizer/devises_customizer.php:274
+msgid ""
+"Apprendre les bases de la vie en société dans un environement agréable et "
+"bon vivre."
+msgstr ""
+
+#: controllers/posts/gets.php:29
+msgid "Substitution title unavailable."
+msgstr "Titre de substitution indisponible."
+
+#: controllers/posts/gets.php:43 controllers/posts/gets.php:148
+#: controllers/posts/gets.php:157 single-next_events.php:224
+#: single-next_events.php:234
+msgid "This article doesn't have a description."
+msgstr "Cette article n'a pas de description."
+
+#: functions.php:56
+msgid "Primary"
+msgstr ""
+
+#: functions.php:167
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:169
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:245
+msgid "Theme settings"
+msgstr "Paramétrage du thème"
+
+#: functions.php:246
+msgid "Theme settings list."
+msgstr "Liste des paramètres du thème."
+
+#: inc/template-tags.php:62
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Publier dans %1$s"
+
+#: inc/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Identifié %1$s"
+
+#: inc/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:99 template-parts/content-page.php:37
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: models/customizer/cgu_customizer.php:17
+msgid "Website URL"
+msgstr "URL du site"
+
+#: models/customizer/cgu_customizer.php:18
+msgid "For example: https://www.google.com"
+msgstr "Par exemple: https://www.google.com"
+
+#: models/customizer/cgu_customizer.php:28
+msgid "https://www.google.com ..."
+msgstr "https://www.google.com ..."
+
+#: models/customizer/cgu_customizer.php:47
+msgid "Webmaster E-mail"
+msgstr "E-mail du webmaster"
+
+#: models/customizer/cgu_customizer.php:48
+msgid "contact@example.com"
+msgstr "contact@example.com"
+
+#: models/customizer/cgu_customizer.php:58
+msgid "ipt.avignon@gmail.com ..."
+msgstr "ipt.avignon@gmail.com ..."
+
+#: models/customizer/cgu_customizer.php:77
+msgid "Web host name"
+msgstr "Nom de l'hébergeur web"
+
+#: models/customizer/cgu_customizer.php:78
+msgid "For example: OVH, 1&1, ect ..."
+msgstr "Par exemple: OVH, 1&1, ect ..."
+
+#: models/customizer/cgu_customizer.php:88
+msgid "Web host name ..."
+msgstr "Nom de l'hébergeur web ..."
+
+#: models/customizer/cgu_customizer.php:107
+msgid "Web host address"
+msgstr "Adresse de l'hébergeur web"
+
+#: models/customizer/cgu_customizer.php:108
+msgid "Champ de Mars, 5 Avenue Anatole France"
+msgstr "Champ de Mars, 5 Avenue Anatole France"
+
+#: models/customizer/cgu_customizer.php:118
+msgid "Champ de Mars, 5 Avenue Anatole France ..."
+msgstr "Champ de Mars, 5 Avenue Anatole France ..."
+
+#: models/customizer/cgu_customizer.php:137
+msgid "Web host postal code"
+msgstr "Code postale de l'hébergeur web"
+
+#: models/customizer/cgu_customizer.php:138
+msgid "75 016, Paris"
+msgstr "75 016, Paris"
+
+#: models/customizer/cgu_customizer.php:148
+msgid "75 016, Paris . . ."
+msgstr "75 016, Paris . . ."
+
+#: models/customizer/cgu_customizer.php:167
+msgid "Web Host registration number"
+msgstr "SIRET de l'hébergeur web"
+
+#: models/customizer/cgu_customizer.php:168
+msgid "For example: 111 222 333 000 11"
+msgstr "Par exemple: 111 222 333 000 11"
+
+#: models/customizer/cgu_customizer.php:178
+msgid "Registration number ..."
+msgstr "SIRET ..."
+
+#: models/customizer/cgu_customizer.php:197
+msgid "Do you have google analytics on your website ?"
+msgstr ""
+
+#: models/customizer/cgu_customizer.php:198
+msgid "Select a anwser."
+msgstr ""
+
+#: models/customizer/devises_customizer.php:16
+msgid "Image of the first motto"
+msgstr "Image première devise"
+
+#: models/customizer/devises_customizer.php:17
+msgid "Choose a image for the first motto."
+msgstr "Choisissez l'image de la première devise."
+
+#: models/customizer/devises_customizer.php:24
+#: models/customizer/devises_customizer.php:29
+#: models/customizer/devises_customizer.php:30
+#: models/customizer/devises_customizer.php:116
+#: models/customizer/devises_customizer.php:121
+#: models/customizer/devises_customizer.php:122
+#: models/customizer/devises_customizer.php:208
+#: models/customizer/devises_customizer.php:213
+#: models/customizer/devises_customizer.php:214
+#: models/customizer/slider_customizer.php:24
+#: models/customizer/slider_customizer.php:29
+#: models/customizer/slider_customizer.php:30
+#: models/customizer/slider_customizer.php:56
+#: models/customizer/slider_customizer.php:61
+#: models/customizer/slider_customizer.php:62
+#: models/customizer/slider_customizer.php:88
+#: models/customizer/slider_customizer.php:93
+#: models/customizer/slider_customizer.php:94
+#: models/customizer/unregistered_fields_customizer.php:26
+#: models/customizer/unregistered_fields_customizer.php:31
+#: models/customizer/unregistered_fields_customizer.php:32
+msgid "Choose a file"
+msgstr "Choisissez un fichier"
+
+#: models/customizer/devises_customizer.php:25
+#: models/customizer/devises_customizer.php:117
+#: models/customizer/devises_customizer.php:209
+#: models/customizer/slider_customizer.php:25
+#: models/customizer/slider_customizer.php:57
+#: models/customizer/slider_customizer.php:89
+#: models/customizer/unregistered_fields_customizer.php:27
+msgid "Choose a other file"
+msgstr "Choisissez un autre fichier"
+
+#: models/customizer/devises_customizer.php:26
+#: models/customizer/devises_customizer.php:118
+#: models/customizer/devises_customizer.php:210
+#: models/customizer/slider_customizer.php:26
+#: models/customizer/slider_customizer.php:58
+#: models/customizer/slider_customizer.php:90
+#: models/customizer/unregistered_fields_customizer.php:28
+msgid "Default"
+msgstr ""
+
+#: models/customizer/devises_customizer.php:27
+#: models/customizer/devises_customizer.php:119
+#: models/customizer/devises_customizer.php:211
+#: models/customizer/slider_customizer.php:27
+#: models/customizer/slider_customizer.php:59
+#: models/customizer/slider_customizer.php:91
+#: models/customizer/unregistered_fields_customizer.php:29
+msgid "Delete"
+msgstr "Supprimer"
+
+#: models/customizer/devises_customizer.php:28
+#: models/customizer/devises_customizer.php:120
+#: models/customizer/devises_customizer.php:212
+#: models/customizer/slider_customizer.php:28
+#: models/customizer/slider_customizer.php:60
+#: models/customizer/slider_customizer.php:92
+#: models/customizer/unregistered_fields_customizer.php:30
+msgid "No file chosen"
+msgstr "Pas de fichier choisi"
+
+#: models/customizer/devises_customizer.php:49
+msgid "Title of the first motto"
+msgstr "Titre de la première devise"
+
+#: models/customizer/devises_customizer.php:50
+#: models/customizer/devises_customizer.php:80
+#: models/customizer/devises_customizer.php:142
+#: models/customizer/devises_customizer.php:172
+#: models/customizer/devises_customizer.php:234
+#: models/customizer/devises_customizer.php:264
+#: models/customizer/informations_customizer.php:309
+msgid " "
+msgstr " "
+
+#: models/customizer/devises_customizer.php:79
+#: models/customizer/devises_customizer.php:171
+#: models/customizer/devises_customizer.php:263
+msgid "The motto content"
+msgstr "Contenu de celle-ci"
+
+#: models/customizer/devises_customizer.php:108
+msgid "Image seconde devise"
+msgstr ""
+
+#: models/customizer/devises_customizer.php:109
+msgid "Choisissez l'image de la première devise."
+msgstr ""
+
+#: models/customizer/devises_customizer.php:141
+msgid "Titre de la seconde devise"
+msgstr ""
+
+#: models/customizer/devises_customizer.php:200
+msgid "Third motto image"
+msgstr "Image de la troisième devise"
+
+#: models/customizer/devises_customizer.php:201
+msgid "Choose this image."
+msgstr "Choisissez cette image."
+
+#: models/customizer/devises_customizer.php:233
+msgid "Title of the third motto"
+msgstr "Titre de la troisième devise"
+
+#: models/customizer/footers_customizer.php:17
+msgid "Choose a footer"
+msgstr "Choisissez un pied de page"
+
+#: models/customizer/footers_customizer.php:18
+msgid "Choose a footer between few ones."
+msgstr "Choisissez un pied de page parmi plusieurs."
+
+#: models/customizer/horraires_customizer.php:17
+msgid "Lundi, mardi, jeudi et vendredi matin"
+msgstr ""
+
+#: models/customizer/horraires_customizer.php:18
+#: models/customizer/horraires_customizer.php:28
+#: models/customizer/horraires_customizer.php:78
+#: models/customizer/horraires_customizer.php:88
+msgid "08H30 - 11H30"
+msgstr ""
+
+#: models/customizer/horraires_customizer.php:47
+msgid "Lundi, mardi, jeudi et vendredi après-midi"
+msgstr ""
+
+#: models/customizer/horraires_customizer.php:48
+#: models/customizer/horraires_customizer.php:58
+msgid "13H30 - 16H30"
+msgstr ""
+
+#: models/customizer/horraires_customizer.php:77
+msgid "Mercredi"
+msgstr ""
+
+#: models/customizer/informations_customizer.php:17
+msgid "Full School name"
+msgstr "Dénomination complète de l'établissement"
+
+#: models/customizer/informations_customizer.php:18
+msgid ""
+"For example: Lycée Janson-de-Sailly. This field will be display in the "
+"contact us page."
+msgstr ""
+"Par exemple: Lycée Janson-de-Sailly. Ce champ s'affichera dans la page nous "
+"contacter."
+
+#: models/customizer/informations_customizer.php:28
+msgid "Enter complete name..."
+msgstr "Entrer un nom complet ..."
+
+#: models/customizer/informations_customizer.php:47
+msgid "School name"
+msgstr "Dénomination de l'établissement"
+
+#: models/customizer/informations_customizer.php:48
+msgid "For example: Janson-de-Sailly"
+msgstr "Par exemple: Janson-de-Sailly"
+
+#: models/customizer/informations_customizer.php:58
+msgid "Enter name..."
+msgstr "Entrer le nom ..."
+
+#: models/customizer/informations_customizer.php:76
+msgid "Address"
+msgstr "Adresse"
+
+#: models/customizer/informations_customizer.php:77
+msgid "For example: Champ de Mars, 5 Avenue Anatole France"
+msgstr "Par exemple:  Champ de Mars, 5 Avenue Anatole France"
+
+#: models/customizer/informations_customizer.php:87
+msgid "Enter address..."
+msgstr "Entrer une adresse ..."
+
+#: models/customizer/informations_customizer.php:105
+msgid "Postal Code"
+msgstr "Code Postale"
+
+#: models/customizer/informations_customizer.php:106
+msgid "For example: 75 016"
+msgstr "Par exemple: 75 016"
+
+#: models/customizer/informations_customizer.php:116
+msgid "Enter postal code..."
+msgstr "Entrer le code postale ..."
+
+#: models/customizer/informations_customizer.php:134
+msgid "City"
+msgstr ""
+
+#: models/customizer/informations_customizer.php:135
+msgid "For example: Paris"
+msgstr "Par exemple: Paris"
+
+#: models/customizer/informations_customizer.php:145
+msgid "Enter city..."
+msgstr "Entrer une ville..."
+
+#: models/customizer/informations_customizer.php:163
+msgid "Phone number"
+msgstr "Numéro de téléphone"
+
+#: models/customizer/informations_customizer.php:164
+#: models/customizer/informations_customizer.php:193
+msgid "For example: 04 12 34 56 78"
+msgstr "Par exemple: 04 12 34 56 78"
+
+#: models/customizer/informations_customizer.php:174
+msgid "Enter phone number..."
+msgstr "Entrer un numéro de téléphone ..."
+
+#: models/customizer/informations_customizer.php:192
+msgid "Fax number"
+msgstr "Numéro de Fax"
+
+#: models/customizer/informations_customizer.php:203
+msgid "Enter fax number..."
+msgstr "Entrer un numéro de Fax ..."
+
+#: models/customizer/informations_customizer.php:221
+msgid "E-mail"
+msgstr "E-mail"
+
+#: models/customizer/informations_customizer.php:222
+msgid "For example: school@example.com"
+msgstr "Par exemple : school@example.com"
+
+#: models/customizer/informations_customizer.php:232
+msgid "Enter e-mail..."
+msgstr "Entrer une e-mail ..."
+
+#: models/customizer/informations_customizer.php:250
+msgid "Google Maps iframe URL"
+msgstr "URL de l'iframe Google Maps"
+
+#: models/customizer/informations_customizer.php:251
+msgid ""
+"You need to fill this field only with the URL beetween the src quotes of an "
+"Google Maps iframe link."
+msgstr ""
+"Vous devez remplir ce champs avec l'URL ce trouvant entre les guillemets de "
+"l'iframe de Google Maps."
+
+#: models/customizer/informations_customizer.php:261
+msgid ""
+"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.991440608169!"
+"2d2.292292615403429!3d48.85837360866234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!"
+"4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour+Eiffel!5e0!"
+"3m2!1sfr!2sfr!4v1547063085308"
+msgstr ""
+"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.991440608169!"
+"2d2.292292615403429!3d48.85837360866234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!"
+"4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour+Eiffel!5e0!"
+"3m2!1sfr!2sfr!4v1547063085308"
+
+#: models/customizer/informations_customizer.php:279
+msgid "How much article you want to see on the home page ?"
+msgstr "Combien d'articles voulez-vous voir dans la page d'accueil ?"
+
+#: models/customizer/informations_customizer.php:280
+msgid "Between 4 and 10 articles max. The default value is : 4"
+msgstr "Choisissez une valeur entre 4 et 10. Par défaut la valeur est: 4"
+
+#: models/customizer/informations_customizer.php:290
+msgid "Enter a value . . ."
+msgstr "Entrer une valeur ..."
+
+#: models/customizer/informations_customizer.php:308
+msgid "Google description SEO"
+msgstr ""
+
+#: models/customizer/informations_customizer.php:319
+msgid "Enter a description for google..."
+msgstr ""
+
+#: models/customizer/sections_customizer.php:7
+msgid "Slider"
+msgstr "Galerie d'images déroulante"
+
+#: models/customizer/sections_customizer.php:8
+msgid "Select your slider images."
+msgstr "Sélectionné les images de la galerie déroulante."
+
+#: models/customizer/sections_customizer.php:24
+msgid "The 3 mottos"
+msgstr "Les 3 devises"
+
+#: models/customizer/sections_customizer.php:25
+msgid "Customize the mottos."
+msgstr "Personnalisé les devises."
+
+#: models/customizer/sections_customizer.php:41
+msgid "Social networks"
+msgstr "Réseaux sociaux"
+
+#: models/customizer/sections_customizer.php:42
+msgid "Set your social networks URL."
+msgstr "Entrer les liens vers vos réseaux sociaux."
+
+#: models/customizer/sections_customizer.php:58
+msgid "Basics Informations"
+msgstr "Informations de base"
+
+#: models/customizer/sections_customizer.php:59
+msgid "School name, adress, phone and email."
+msgstr "Nom de l'établissement, adresse, numéro de téléphone et adresse mail."
+
+#: models/customizer/sections_customizer.php:75
+#: models/customizer/sections_customizer.php:76
+msgid "Schedule"
+msgstr ""
+
+#: models/customizer/sections_customizer.php:92
+msgid "Unregistered Contents"
+msgstr "Contenus non renseigné"
+
+#: models/customizer/sections_customizer.php:93
+msgid "Images for remplace unregistered contents."
+msgstr "Images de remplacement des éléments non renseigné."
+
+#: models/customizer/sections_customizer.php:109
+msgid "Terms of Service"
+msgstr "C.G.U"
+
+#: models/customizer/sections_customizer.php:110
+msgid "Terms of Service Informations."
+msgstr "Informations concernant les C.G.U."
+
+#: models/customizer/sections_customizer.php:126
+msgid "Footers"
+msgstr ""
+
+#: models/customizer/sections_customizer.php:127
+msgid "Choose the footer who gonna be displayed."
+msgstr ""
+
+#: models/customizer/slider_customizer.php:16
+msgid "Image 1"
+msgstr "Image 1"
+
+#: models/customizer/slider_customizer.php:17
+msgid "Choose a image for the first layer of the slider."
+msgstr "Choisissez l'image qui apparaîtra en premier dans le slider."
+
+#: models/customizer/slider_customizer.php:48
+msgid "Image 2"
+msgstr "Image 2"
+
+#: models/customizer/slider_customizer.php:49
+msgid "Choose a image for the second layer of the slider."
+msgstr "Choisissez l'image qui apparaîtra en deuxième dans le slider."
+
+#: models/customizer/slider_customizer.php:80
+msgid "Image 3"
+msgstr "Image 3"
+
+#: models/customizer/slider_customizer.php:81
+msgid "Choose a image for the third layer of the slider."
+msgstr "Choisissez l'image qui apparaîtra en troisième dans le slider."
+
+#: models/customizer/social_medias_customizer.php:17
+msgid "Go to Facebook"
+msgstr "Lien vers Facebook"
+
+#: models/customizer/social_medias_customizer.php:18
+msgid "For example: https://www.facebook.com/ipt.avignon/"
+msgstr "Par exemple: https://www.facebook.com/ipt.avignon/"
+
+#: models/customizer/social_medias_customizer.php:28
+msgid "Enter Facebook ID ..."
+msgstr "Entrer l'identifiant Facebook ..."
+
+#: models/customizer/social_medias_customizer.php:46
+msgid "Go to Instagram"
+msgstr "Lien vers Instagram"
+
+#: models/customizer/social_medias_customizer.php:47
+msgid "For example: https://www.instagram.com/ipt.avignon/"
+msgstr "Par exemple: https://www.instagram.com/ipt.avignon/"
+
+#: models/customizer/social_medias_customizer.php:57
+msgid "Enter Instagram ID ..."
+msgstr "Entrer l'identifiant Instagram ..."
+
+#: models/customizer/social_medias_customizer.php:75
+msgid "Go to Twitter"
+msgstr "Lien vers Twitter"
+
+#: models/customizer/social_medias_customizer.php:76
+msgid "For example: https://twitter.com/ipt.avignon"
+msgstr "Par exemple: https://twitter.com/ipt.avignon"
+
+#: models/customizer/social_medias_customizer.php:86
+msgid "Enter Twitter ID ..."
+msgstr "Entrer l'identifiant Twitter ..."
+
+#: models/customizer/unregistered_fields_customizer.php:16
+msgid "Default article image"
+msgstr "Image par défaut d'un article"
+
+#: models/customizer/unregistered_fields_customizer.php:17
+msgid "Choose a default image."
+msgstr "Choisissez une image par défaut."
+
+#: models/customizer/unregistered_fields_customizer.php:51
+msgid "Default article title"
+msgstr "Titre par défaut d'un article"
+
+#: models/customizer/unregistered_fields_customizer.php:52
+msgid "This title will display when no title was record."
+msgstr "Ce titre s'affichera quand aucun titre n'est enregistrer."
+
+#: models/customizer/unregistered_fields_customizer.php:62
+msgid "Something . . ."
+msgstr "Quelque chose ..."
+
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single-next_events.php:103
+msgid "Title of substitution unavailable."
+msgstr "Titre de substitution indisponible."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:24 template-parts/content_old.php:50
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content_old.php:39
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: vues/footers/footer_default.php:105
+msgid "Contact us"
+msgstr "Nous contacter"
+
+#: vues/footers/footer_default.php:153
+msgid "Usefull links"
+msgstr "Liens utiles"
+
+#: vues/footers/footer_default.php:203
+msgid "Copyright ©"
+msgstr "Copyright ©"
+
+#: vues/footers/footer_default.php:205
+msgid "Website design and made by the nonprofit organization "
+msgstr "Site dessiné et conçu par l'association "
+
+#: vues/footers/footer_default.php:207 vues/footers/footer_light.php:58
+#: vues/footers/footer_very_light.php:6
+msgid "L'informatique pour tous"
+msgstr "L'informatique pour tous"
+
+#~ msgid "37 188"
+#~ msgstr "75 000"
+
+#~ msgid "Dénomination complète de l'établissement"
+#~ msgstr "Dénomination complète de l'établissement"
+
+#~ msgid "Image première devise"
+#~ msgstr "Image of the first motto"
+
+#~ msgid "Éléments de remplacement des éléments non renseigné."
+#~ msgstr "Images de remplacement des éléments non renseigné."
+
+#~ msgid ""
+#~ "Nom de l'établissement, adresse, numéro de téléphone, fax et adresse mail."
+#~ msgstr ""
+#~ "Nom de l'établissement, adresse, numéro de téléphone, fax et adresse mail."
+
+#~ msgid "Nous contacter"
+#~ msgstr "Aboslutly not fr_FR"

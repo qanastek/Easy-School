@@ -1,0 +1,63 @@
+# Copyright (C) 2018 Labrak Yanis
+# This file is distributed under the MIT.
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy School - Thème WordPress à destination des écoles primaire 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/pierre_de_coubertin_wp\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-12-21T21:42:06+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.1.0\n"
+"X-Domain: Ecole primaire\n"
+
+#. Theme Name of the theme
+msgid "Easy School - Thème WordPress à destination des écoles primaire"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://informatique-pour-tous-avignon.fr/"
+msgstr ""
+
+#. Description of the theme
+msgid "Ce thème WordPress simple d'utilisation et à l'interface moderne a était conçus en partenariat avec des établissement scolaire local afin de prendre en compte l'ensemble des besoins d'une école. Ce thème rassemble toutes les fonctionnalités attendu par une école primaire publique comme un menu de cantine, un blog responsive ou un calendrier des évènements à venir."
+msgstr ""
+
+#. Author of the theme
+msgid "Labrak Yanis"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.facebook.com/yanislabrak"
+msgstr ""
+
+#. Template Name of the theme
+msgid "actualiter"
+msgstr ""
+
+#. Template Name of the theme
+msgid "calendrier"
+msgstr ""
+
+#. Template Name of the theme
+msgid "cantine"
+msgstr ""
+
+#. Template Name of the theme
+msgid "contact"
+msgstr ""
+
+#. Template Name of the theme
+msgid "accueil"
+msgstr ""
+
+#. Template Name of the theme
+msgid "mentions-legales"
+msgstr ""
+
+#. Template Name of the theme
+msgid "presentation"
+msgstr ""
