@@ -1,6 +1,8 @@
 # :school: Easy School :school:
 
-> ⚠️ Warning : This theme doesnt work on WordPress 5.0+ ⚠️
+> ⚠️ Warning : This theme doesn't work on WordPress 5.0+ ⚠️
+
+> ⚠️ Only work on WordPress less than 4.X ⚠️
 
 📝 Available Translations : 🇫🇷 _ 🇺🇸 _ 🇬🇧
 
