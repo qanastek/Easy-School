@@ -1,7 +1,6 @@
 <?php
 /**
  * The header for our theme
- * GitHub Plugin URI: qanastek/Easy-School
  *
  * This is the template that displays all of the <head> section and everything up until <div id="content">
  *
