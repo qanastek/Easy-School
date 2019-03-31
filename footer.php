@@ -10,7 +10,7 @@
  */
 
 ?>
-salut
+saluce
     
     <?php
 
