@@ -21,11 +21,17 @@ This WordPress theme is quick to install and easy to use thanks to this modern a
 
 Made in partnership with local french schools this theme is perfect for the use of public pre-school and primary school. And include all the functionnalities needed by a public school.
 
-## Plugins Necessary
+## Dependencies
 
 [Canteen Menu](https://github.com/qanastek) - For the canteen menu (Comming Soon)
 
 [Next Events](https://github.com/qanastek) - For the calendar of the futurs events (Comming Soon)
+
+[Disable Comments](https://fr.wordpress.org/plugins/disable-comments/) - For disable comments on the entire website
+
+[TablePress](https://fr.wordpress.org/plugins/tablepress/) - For making quickly somes tables
+
+[Advanced Custom Fields](https://fr.wordpress.org/plugins/advanced-custom-fields/)
 
 ## Installation
 
