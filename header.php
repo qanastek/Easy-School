@@ -74,105 +74,47 @@
           
         </button>
 
-        <!-- Ont capte le slug -->
-        <?php $slug = basename(get_permalink()); ?>
-
         <!-- https://codex.wordpress.org/Creating_Horizontal_Menus -->
         <div class="collapse navbar-collapse" id="navbarResponsive" style="width: 100%; font-size: 0.95em;"><!-- font-size: 15px; -->
           <ul class="navbar-nav ml-auto">
 
             <!-- Page d'accueil -->
-            <li class="nav-item
-            <?php
-              if ($slug == "wordpress") {
-
-                echo("active");
-
-              }
-            ?>
-            ">
+            <li class="nav-item">
               <a class="nav-link" rel="canonical" href="<?php echo esc_url( home_url( '/' ) ); ?>">
                 Accueil
               </a>
             </li>
 
             <!-- L'établissement -->
-            <li class="nav-item
-            <?php
-              if ($slug == "presentation-de-letablissement" or
-                  $slug == "lequipe-educative" or
-                  $slug == "restauration-scolaire" or
-                  $slug == "bibliotheque-centre-documentaire" or
-                  $slug == "activites-peri-scolaires" or
-                  $slug == "liste-des-fournitures" or
-                  $slug == "activites-extra-scolaire" or
-                  $slug == "acceder-a-letablissement")
-              {
-                echo("active");
-
-              }
-            ?>
-            ">
-              <a class="nav-link" rel="canonical" href="<?php echo get_permalink( get_page_by_path( 'presentation-de-letablissement' ) ) ?>">
+            <li class="nav-item">
+              <a class="nav-link etablissement" rel="canonical" href="<?php echo get_permalink( get_page_by_path( 'presentation-de-letablissement' ) ) ?>">
                 L'établissement
               </a>
             </li>
 
             <!-- L'actualité du moment -->
-            <li class="nav-item
-            <?php
-              if ($slug == "lactualite-du-moment") {
-
-                echo("active");
-
-              }
-            ?>
-            ">
+            <li class="nav-item">
               <a class="nav-link" rel="canonical" href="<?php echo get_permalink( get_page_by_path( 'lactualite-du-moment' ) ) ?>">
                 Actualités
               </a>
             </li>
 
             <!-- Menu de la cantine -->
-            <li class="nav-item
-            <?php
-              if ($slug == "menu-de-la-cantine") {
-
-                echo("active");
-
-              }
-            ?>
-            ">
+            <li class="nav-item">
               <a class="nav-link" rel="canonical" href="<?php echo get_permalink( get_page_by_path( 'menu-de-la-cantine' ) ) ?>">
                 Cantine
               </a>
             </li>
 
             <!-- Calendrier -->
-            <li class="nav-item
-            <?php
-              if ($slug == "calendrier") {
-
-                echo("active");
-
-              }
-            ?>
-            ">
+            <li class="nav-item">
               <a class="nav-link" rel="canonical" href="<?php echo get_permalink( get_page_by_path( 'calendrier' ) ) ?>">
                 Calendrier
               </a>
             </li>
 
             <!-- Nous contacter -->
-            <li class="nav-item
-            <?php
-              if ($slug == "nous-contacter") {
-
-                echo("active");
-
-              }
-            ?>
-            ">
+            <li class="nav-item">
               <a class="nav-link" rel="canonical" href="<?php echo get_permalink( get_page_by_path( 'nous-contacter' ) ) ?>">
                 Contact
               </a>

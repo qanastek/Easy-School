@@ -15,7 +15,6 @@
 
 define( 'WP_DEBUG', false );
 
-
 if ( ! function_exists( 'easy_school_wp_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
@@ -230,6 +229,20 @@ function additional_custom_styles()
     
 }
 add_action( 'wp_enqueue_scripts', 'additional_custom_styles' );
+
+function EasySchoolJQUERY()
+{
+	wp_register_script(
+		'EasySchool',
+		get_template_directory_uri() . '/js/EasySchool.js',
+		array('jquery'),
+		'1.0'
+	);
+
+	wp_enqueue_script('EasySchool');
+
+}
+add_action('wp_enqueue_scripts', 'EasySchoolJQUERY');
 
 /**
 *	Fonction de customisation
