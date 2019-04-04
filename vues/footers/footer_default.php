@@ -215,7 +215,7 @@
 
            <li>
 
-              <a href='<?php echo get_theme_mod( 'social_media_facebook'); ?>' rel="canonical">
+              <a href='<?php echo get_theme_mod( 'social_media_facebook'); ?>' rel="canonical" aria-label="Facebook">
                 
                 <i class='fab fa-facebook-f'></i>
 
@@ -231,7 +231,7 @@
 
             <li>
 
-              <a href='<?php echo get_theme_mod( 'social_media_twitter'); ?>' rel="canonical">
+              <a href='<?php echo get_theme_mod( 'social_media_twitter'); ?>' rel="canonical" aria-label="Twitter">
                 
                 <i class='fab fa-twitter'></i>
 
@@ -247,7 +247,7 @@
 
             <li>
 
-              <a href='<?php echo get_theme_mod( 'social_media_instagram');?>' rel="canonical">
+              <a href='<?php echo get_theme_mod( 'social_media_instagram');?>' rel="canonical" aria-label="Instagram">
                 
                 <i class='fab fa-instagram'></i>
 

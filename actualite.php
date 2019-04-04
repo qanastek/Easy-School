@@ -87,7 +87,13 @@
             <div class="col-xs-12 col-sm-12 col-md-4 col-xl-4">
               <a href="<?php the_permalink(); ?>">
 
-                <img title='article' alt='image' class='wp-post-image image_ratio_full_size' src='<?php get_image_url(); ?>'>
+                <img
+                  title='article'
+                  alt='image'
+                  class='lazy wp-post-image image_ratio_full_size'
+                  src="<?php echo get_load_image(); ?>"
+                  data-src='<?php get_image_url(); ?>'
+                >
 
               </a>
             </div>

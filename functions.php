@@ -244,6 +244,20 @@ function EasySchoolJQUERY()
 }
 add_action('wp_enqueue_scripts', 'EasySchoolJQUERY');
 
+function LazyLoadJQuery()
+{
+	wp_register_script(
+		'EasySchoolLazyLoad',
+		get_template_directory_uri() . '/js/jquery.lazy.min.js',
+		array('jquery'),
+		'1.0'
+	);
+
+	wp_enqueue_script('EasySchoolLazyLoad');
+
+}
+add_action('wp_enqueue_scripts', 'LazyLoadJQuery');
+
 /**
 *	Fonction de customisation
 */

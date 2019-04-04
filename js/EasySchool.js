@@ -8,4 +8,11 @@ jQuery(document).ready(function($)
 
 	/*Sidebar for "présentation"*/
 	$('.item_menu[href="'+URL+'"]').addClass('item_active_menu');
+
+	/*Lazy Load*/
+	window.addEventListener("load", function(event) {
+	    let images = document.querySelectorAll(".lazy");
+		lazyload(images);
+	});
+	
 })

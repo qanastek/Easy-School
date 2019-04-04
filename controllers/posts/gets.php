@@ -120,6 +120,11 @@ function get_no_image_url()
 	}
 }
 
+function get_load_image()
+{
+	return get_template_directory_uri() . '/img/load1.jpg' . '?' . get_current_version();
+}
+
 function get_image_url()
 {
 	if (has_post_thumbnail())
