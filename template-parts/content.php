@@ -40,30 +40,7 @@ get_header();
 				Fait par <b><?php the_author(); /*Afficher le nom de l'auteur*/ ?></b> 
 				le <?php echo get_the_date(); /*Afficher la date de création*/ ?> 
 				à <?php the_time(); /*Afficher l'heure de création*/ ?>  
-				<?php 
-
-					/*Si il y au minimum un tag*/
-					if(has_tag())
-					{
-
-						/*Capture the class tag value*/
-						$tag_capture = get_the_tags();
-
-						/*Take the first tag*/
-						$tag_capture = $tag_capture[0]->name;
-
-						/*Sanitize it*/
-						$tag_capture = strip_tags($tag_capture);
-
-						/*Take the only 3 first characters*/
-						$tag_capture = mb_strimwidth($tag_capture, 0, 3);
-
-						/*Print it*/
-						echo "| "."<span style='text-transform: uppercase; color: darkorange;'>".$tag_capture."</span>";
-
-					}
-
-				?>
+				<?php get_tag_display(); ?>
 			</p>
 
 		</div>
@@ -76,35 +53,13 @@ get_header();
 
 		<div class="row mb-1 content_article_full" style="padding-top: 1%;">
 
-			<?php get_description_article(); ?>
+			<div class="row pl-3">
+				<?php get_description_article(); ?>
+			</div>
 
-			<div class="row" style="padding-top: 1.5%;">
+			<div class="row">
 
-				<?php 
-					if ( get_post_gallery() )
-					{
-
-					    $gallery        = get_post_gallery( get_the_ID(), false );
-					    $galleryIDS     = $gallery['ids'];
-					    $pieces         = explode(",", $galleryIDS);
-
-					    foreach ($pieces as $key => $value )
-					    { 
-					    		$image_small	= wp_get_attachment_image_src( $value, 'thumbnail');
-						        // $image_medium   = wp_get_attachment_image_src( $value, 'medium');
-						        $image_full     = wp_get_attachment_image_src( $value, 'full'); 
-						    ?>
-
-						    <div class="col-md-4 col-sm-4 col-xs-12 col-xl-4" style="padding-top: 0.5%; padding-right: 0.5%; padding-left: 0.5%; padding-bottom: 0.5%;">
-						    	<a href="<?php echo $image_full[0] ?>"  rel="lightbox">
-									<img class="img_post_ratio" src="<?php echo $image_small[0] ?>">
-								</a>
-							</div>
-
-					    	<?php
-					    }
-					}
-				?>
+				<?php display_gallery(); ?>
 				
 			</div>
 

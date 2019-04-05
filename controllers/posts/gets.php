@@ -1,5 +1,54 @@
 <?php
 
+function display_gallery()
+{
+	if (get_post_gallery())
+	{
+
+	    $gallery     = get_post_gallery( get_the_ID(), false );
+	    $galleryIDS  = $gallery['ids'];
+	    $pieces      = explode(",", $galleryIDS);
+
+	    foreach ($pieces as $key => $value )
+	    { 
+	    		// $image_small	 = wp_get_attachment_image_src( $value, 'thumbnail');
+		        // $image_medium = wp_get_attachment_image_src( $value, 'medium');
+		        $image_full      = wp_get_attachment_image_src( $value, 'full');
+
+		    echo '<div class="col-md-4 col-sm-4 col-xs-12 col-xl-4" style="padding-top: 0.5%; padding-right: 0.5%; padding-left: 0.5%; padding-bottom: 0.5%;">
+		    	<a href="'. $image_full[0] .'"  rel="lightbox">
+					<img class="img_post_ratio" src="' . $image_full[0] . '">
+				</a>
+			</div>';
+	    }
+
+	}
+}
+
+function get_tag_display()
+{
+	/*Si il y au minimum un tag*/
+	if(has_tag())
+	{
+
+		/*Capture the class tag value*/
+		$tag_capture = get_the_tags();
+
+		/*Take the first tag*/
+		$tag_capture = $tag_capture[0]->name;
+
+		/*Sanitize it*/
+		$tag_capture = strip_tags($tag_capture);
+
+		/*Take the only 3 first characters*/
+		$tag_capture = mb_strimwidth($tag_capture, 0, 3);
+
+		/*Print it*/
+		return "| "."<span style='text-transform: uppercase; color: darkorange;'>".$tag_capture."</span>";
+
+	}
+}
+
 function get_title_es($nbr_chars)
 {
 	if (get_the_title())
