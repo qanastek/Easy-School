@@ -6,7 +6,7 @@ jQuery(document).ready(function($)
 	/*Navbar*/
 	$('.nav-item > a[href="'+URL+'"]').parent().addClass('active');
 
-	/*Sidebar for "présentation"*/
+	/*Sidebar for "actualité"*/
 	$('.item_menu[href="'+URL+'"]').addClass('item_active_menu');
 
 	/*Lazy Load*/
