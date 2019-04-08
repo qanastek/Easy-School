@@ -764,3 +764,15 @@ footer p {
     overflow: hidden;
   }
 }
+
+.bottom_block
+{
+  position: relative;
+}
+
+.right-bottom
+{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

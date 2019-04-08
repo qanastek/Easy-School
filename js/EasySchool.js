@@ -28,5 +28,12 @@ jQuery(document).ready(function($)
 	$('.image_ratio_full_size').css({
 		height: widthImageMain
 	});
+
+	/*Padding for card*/
+	let heightText = $('.right-bottom').height();
 	
+	$('.article_text').css({
+		paddingBottom: heightText
+	});
+
 })

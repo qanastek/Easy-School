@@ -113,7 +113,7 @@
                   <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12 pr-4"> <?php get_description_es(200); ?> </div>
                 </div>
 
-                <div class="row">
+                <div class="row right-bottom">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12">
                     <p class="article_date" style="text-align: right; float: right; padding-right: 3%; font-weight: 500;">
 

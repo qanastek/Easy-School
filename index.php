@@ -263,7 +263,7 @@ get_header();
                   </div>
 
                   <div class="col-xs-12 col-sm-12 col-md-8 col-xl-8 px-3 bottom_block">
-                    <div class="card-block phone-padding">
+                    <div class="card-block phone-padding content_index">
 
                       <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12">
@@ -285,7 +285,7 @@ get_header();
                         </div>
                       </div>
 
-                      <div class="row">
+                      <div class="row right-bottom">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12">
                           <p class="article_date" style="text-align: right; float: right; padding-right: 3%; font-weight: 500;">
 
