@@ -14,5 +14,19 @@ jQuery(document).ready(function($)
 	    let images = document.querySelectorAll(".lazy");
 		lazyload(images);
 	});
+
+	/*Image ratio 1:1 articles gallery*/
+	let widthImage = $('.img_post_ratio').width();
+
+	$('.img_post_ratio').css({
+		height: widthImage
+	});
+
+	/*Image ratio 1:1 articles presentation*/
+	let widthImageMain = $('.image_ratio_full_size').width();
+
+	$('.image_ratio_full_size').css({
+		height: widthImageMain
+	});
 	
 })

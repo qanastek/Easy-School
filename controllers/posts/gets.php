@@ -15,7 +15,7 @@ function display_gallery()
 		        // $image_medium = wp_get_attachment_image_src( $value, 'medium');
 		        $image_full      = wp_get_attachment_image_src( $value, 'full');
 
-		    echo '<div class="col-md-4 col-sm-4 col-xs-12 col-xl-4" style="padding-top: 0.5%; padding-right: 0.5%; padding-left: 0.5%; padding-bottom: 0.5%;">
+		    echo '<div class="gallery-picture square col-md-4 col-sm-4 col-xs-12 col-xl-4" style="padding-top: 0.5%; padding-right: 0.5%; padding-left: 0.5%; padding-bottom: 0.5%;">
 		    	<a href="'. $image_full[0] .'"  rel="lightbox">
 					<img class="img_post_ratio" src="' . $image_full[0] . '">
 				</a>

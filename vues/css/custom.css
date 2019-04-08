@@ -216,24 +216,6 @@ body {
   }
 }
 
-.img_post_ratio
-{
-  width: 100%;
-  height: 18em;
-  object-fit: cover;
-  overflow: hidden;
-}
-
-@media screen and (max-width: 800px) {
-  .img_post_ratio
-  {
-    width: 100%;
-    height: 20em;
-    object-fit: cover;
-    overflow: hidden;
-  }
-}
-
 .phone-padding {
     padding-left: 0%;
   }
@@ -752,5 +734,33 @@ footer p {
   .gallery_presentation
   {
     display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .gallery-picture
+  {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+}
+
+.img_post_ratio
+{
+  width: 100%;
+  height: 18em;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .img_post_ratio
+  {
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+    overflow: hidden;
   }
 }
