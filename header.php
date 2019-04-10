@@ -57,7 +57,7 @@
 
 </head>
 
-<body style="background-color: white; max-width: 100vw;" <?php body_class(); ?>>
+<body style="background-color: white; max-width: 100vw;" <?php body_class(); ?> >
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark nav_color fixed-top" style="max-width: 100vw;">

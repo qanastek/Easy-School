@@ -36,4 +36,20 @@ jQuery(document).ready(function($)
 		paddingBottom: heightText
 	});
 
+	/*var widthViewport = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+
+	if (widthViewport > 900)
+	{
+		let nav = parseInt($('.navbar').height()) + parseInt($('.navbar').css("padding-top")) + parseInt($('.navbar').css("padding-bottom"));
+
+		$(".mainRow").css({
+			paddingTop: 0 + 'px'
+		});
+
+		$("body").css({
+			paddingTop: nav * 1.4 + 'px'
+		});
+	}
+
+	console.log(nav);*/
 })

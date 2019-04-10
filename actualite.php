@@ -78,58 +78,58 @@
       foreach ($postslist as $post) :  setup_postdata($post);
 
     ?>
-		<div class="row mb-3 mr-3">
+		<div class="row mb-3">
 
         <div class="card" style="width: 100%;">
 
-            <div class="row" style="width: 100%;">
+            <div class="row">
 
-            <div class="col-xs-12 col-sm-12 col-md-4 col-xl-4">
-              <a href="<?php the_permalink(); ?>">
+              <div class="col-xs-12 col-sm-12 col-md-4 col-xl-4">
+                <a href="<?php the_permalink(); ?>">
 
-                <img
-                  title='article'
-                  alt='image'
-                  class='lazy wp-post-image image_ratio_full_size'
-                  src="<?php echo get_load_image(); ?>"
-                  data-src='<?php get_image_url(); ?>'
-                >
+                  <img
+                    title='article'
+                    alt='image'
+                    class='lazy wp-post-image image_ratio_full_size'
+                    src="<?php echo get_load_image(); ?>"
+                    data-src='<?php get_image_url(); ?>'
+                  >
 
-              </a>
-            </div>
-
-            <div class="col-xs-12 col-sm-12 col-md-8 col-xl-8 px-3 bottom_block">
-              <div class="card-block phone-padding">
-
-                <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12">
-                    <p class="article_title phone-padding_2">
-                      <a href="<?php the_permalink(); ?>"> <?php get_title_es(30); ?> </a>
-                    </p>
-                  </div>
-                </div>
-
-                <div class="row article_text">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12 pr-4"> <?php get_description_es(200); ?> </div>
-                </div>
-
-                <div class="row right-bottom">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12">
-                    <p class="article_date" style="text-align: right; float: right; padding-right: 3%; font-weight: 500;">
-
-                    <i class="fas fa-calendar-alt"></i> <?php get_date_es(); ?>
-
-                    &nbsp;
-
-                    <i class="fas fa-user-alt"></i> <?php the_author(); ?></p>
-
-                  </div>
-                </div>
-
+                </a>
               </div>
-            </div>
 
-          </div>
+              <div class="col-xs-12 col-sm-12 col-md-8 col-xl-8 px-3 bottom_block">
+                <div class="card-block phone-padding">
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12">
+                      <p class="article_title phone-padding_2">
+                        <a href="<?php the_permalink(); ?>"> <?php get_title_es(30); ?> </a>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="row article_text">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12 pr-4 content_text_article"> <?php get_description_es(200); ?> </div>
+                  </div>
+
+                  <div class="right-bottom">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12" style="display: inline;">
+                      <p class="article_date" style="text-align: right; float: right; padding-right: 3%; font-weight: 500;">
+
+                      <i class="fas fa-calendar-alt"></i> <?php get_date_es(); ?>
+
+                      &nbsp;
+
+                      <i class="fas fa-user-alt"></i> <?php the_author(); ?></p>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
 
         </div>
 

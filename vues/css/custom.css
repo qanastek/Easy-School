@@ -157,7 +157,7 @@ body {
 }
 
 .article_title {
-  font-size: 30px;
+  font-size: 1.9em;
   line-height: 35px;
   font-weight: bold;
   color: #555;
@@ -181,6 +181,22 @@ body {
 @media screen and (min-width: 800px) {
   .article_text p {
     min-height: 5.3em;
+  }
+}
+
+@media (orientation: portrait)
+{
+  .article_title
+  {
+    font-size: 1.7em;
+    line-height: 35px;
+    font-weight: bold;
+    color: #555;
+    font-style: normal;
+    opacity: 1;
+    visibility: visible;
+    font-family: Montserrat;
+    text-transform: uppercase;
   }
 }
 
@@ -773,6 +789,7 @@ footer p {
 .right-bottom
 {
   position: absolute;
+  padding-right: 5%;
   bottom: 0;
   right: 0;
 }
