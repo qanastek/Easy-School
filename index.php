@@ -171,13 +171,13 @@ get_header();
 
     </div>
 
-    <div style="padding-left: 8%; padding-right: 5%;">
+    <div class="contentPart" style="padding-left: 8%; padding-right: 5%;">
       
       <div class="row">
         
-        <div class="col-xs-12 col-sm-12 col-md-8 col-xl-8 pt-5" style="padding-right: 2%; padding-bottom: 4%;">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-xl-8 pt-5" >
 
-          <div class="row" style="background-color: #f7f8f7; margin-right: 2%;">
+          <div class="row titleContent" style="background-color: #f7f8f7; margin-right: 2%;">
 
             <p class="custom_h2" style="padding: 1rem 0rem 0rem 1.2rem;"><i class="far fa-newspaper"></i> | Les dernières actus</p>
             
@@ -248,61 +248,58 @@ get_header();
             $content = get_the_content();
 
           ?>
-          <div class="row mb-3 mr-3">
+          <div class="itemContent row mb-3 mr-3">
 
               <div class="card" style="width: 100%;">
 
-                <div class="row" style="width: 100%;">
+                  <div class="row">
 
-                  <div class="col-xs-12 col-sm-12 col-md-4 col-xl-4">
-                    <a href="<?php the_permalink(); ?>">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-xl-4">
+                      <a href="<?php the_permalink(); ?>">
 
-                      <img title='article' alt='image' class='wp-post-image image_ratio_full_size' src='<?php get_image_url(); ?>'>
+                        <img
+                          title='article'
+                          alt='image'
+                          class='lazy wp-post-image image_ratio_full_size'
+                          src="<?php echo get_load_image(); ?>"
+                          data-src='<?php get_image_url(); ?>'
+                        >
 
-                    </a>
-                  </div>
+                      </a>
+                    </div>
 
-                  <div class="col-xs-12 col-sm-12 col-md-8 col-xl-8 px-3 bottom_block">
-                    <div class="card-block phone-padding content_index">
+                    <div class="col-xs-12 col-sm-12 col-md-8 col-xl-8 px-3 bottom_block">
+                      <div class="card-block phone-padding">
 
-                      <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12">
-                          <p class="article_title phone-padding_2">
-                            <a href="<?php the_permalink(); ?>">
-
-                              <?php get_title_es(26); ?>
-
-                            </a>
-                          </p>
+                        <div class="row">
+                          <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12">
+                            <p class="article_title phone-padding_2">
+                              <a href="<?php the_permalink(); ?>"> <?php get_title_es(30); ?> </a>
+                            </p>
+                          </div>
                         </div>
-                      </div>
 
-                      <div class="row article_text">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12 pr-4">
-                          
-                          <?php get_description_es(200); ?>
-
+                        <div class="row article_text">
+                          <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12 pr-4 content_text_article"> <?php get_description_es(200); ?> </div>
                         </div>
-                      </div>
 
-                      <div class="row right-bottom">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12">
-                          <p class="article_date" style="text-align: right; float: right; padding-right: 3%; font-weight: 500;">
+                        <div class="right-bottom">
+                          <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12" style="display: inline;">
+                            <p class="article_date" style="text-align: right; float: right; padding-right: 3%; font-weight: 500;">
 
                             <i class="fas fa-calendar-alt"></i> <?php get_date_es(); ?>
 
                             &nbsp;
-                            
-                            <i class="fas fa-user-alt"></i> <?php the_author(); ?>
 
-                          </p>
+                            <i class="fas fa-user-alt"></i> <?php the_author(); ?></p>
+
+                          </div>
                         </div>
+
                       </div>
-
                     </div>
-                  </div>
 
-                </div>
+                  </div>
 
               </div>
 

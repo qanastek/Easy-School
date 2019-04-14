@@ -36,6 +36,51 @@ jQuery(document).ready(function($)
 		paddingBottom: heightText
 	});
 
+	let heightVP = $( window ).height();
+	let widthVP = $( window ).width(); 
+
+	if (heightVP > widthVP)
+	{
+		/*Actualité.php*/
+		$('.titleActu').css(
+			{
+				"marginLeft" : '-2.5%',
+	    		"marginRight" : '-2.5%'
+			}
+		);
+
+		$('.itemActu').css(
+			{
+				"paddingLeft" : '2%',
+	    		"paddingRight" : '2%'
+			}
+		);
+
+		/*Index.php*/
+		$('.contentPart').css(
+			{
+				"paddingLeft" : '0%',
+	    		"paddingRight" : '0%'
+			}
+		);
+
+		$('.titleContent').css(
+			{
+				"marginLeft" : '3%',
+	    		"marginRight" : '3%'
+			}
+		);
+
+		$('.itemContent').css(
+			{
+				"marginLeft" : '3%',
+	    		"marginRight" : '3%'
+			}
+		);
+
+		$('.itemContent').removeClass('mr-3');
+	}
+
 	/*var widthViewport = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 
 	if (widthViewport > 900)

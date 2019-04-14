@@ -23,7 +23,7 @@
 	<!-- Content Section -->
 	<div class="col-xs-12 col-sm-12 col-md-9 col-xl-9" style="padding-bottom: 4%;">
 
-		<div class="row" style="background-color: #f7f8f7; margin-bottom: 2%;">
+		<div class="titleActu row" style="background-color: #f7f8f7; margin-bottom: 2%;">
 		
 			<p class="custom_h2_bis"><i class="far fa-newspaper"></i> | L'ACTUALITÉ DU MOMENT</p>
 
@@ -78,7 +78,7 @@
       foreach ($postslist as $post) :  setup_postdata($post);
 
     ?>
-		<div class="row mb-3">
+		<div class="itemActu row mb-3">
 
         <div class="card" style="width: 100%;">
 
