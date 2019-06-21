@@ -29,9 +29,9 @@ Made in partnership with local french schools this theme is perfect for the use 
 
 [Disable Comments](https://fr.wordpress.org/plugins/disable-comments/) - For disable comments on the entire website
 
-[TablePress](https://fr.wordpress.org/plugins/tablepress/) - For making quickly somes tables
+~~[TablePress](https://fr.wordpress.org/plugins/tablepress/) - For making quickly somes tables~~
 
-[Advanced Custom Fields](https://fr.wordpress.org/plugins/advanced-custom-fields/)
+~~[Advanced Custom Fields](https://fr.wordpress.org/plugins/advanced-custom-fields/)~~
 
 ## Installation
 
@@ -81,7 +81,9 @@ Drop the theme in your WordPress theme folder.
 
 ## Informations about the version 2 of this theme
 
-The main goal of the second version of this theme was to be fully compatible with wordpress 5.0+ and take advantage of the brand new features like tables, galleries and blocks. This UX improvement make the theme way simpler to interact with for beginners and make the architecture of the website more flexible. 
+The main goal of the second version of this theme was to be fully compatible with wordpress 5.0+ and take advantage of the brand new features like tables, galleries and blocks. This UX improvement make the theme way simpler to interact with for beginners and make the architecture of the website more flexible.
+
+In the same time, switching to gutemberg permit to use less plugins and make the theme even lighter. Deleting plugins from the stack also permit to improve the security of the website who using the theme.
 
 ## License
 
