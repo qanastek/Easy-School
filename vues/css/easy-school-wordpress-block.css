@@ -1,0 +1,259 @@
+/*
+* Ré-écrit les valeur de wordpress pour le btn de download
+*/
+.wp-block-file .wp-block-file__button
+{
+  border-radius: 0em  !important;
+  color: #ffa500 !important;
+  font-size: 1em !important;
+  text-transform: uppercase;
+}
+
+/*
+* Witdh of tables
+*/
+.wp-block-table
+{
+  width: 100% !important;
+}
+
+/*
+* Add color to the first row of all the wordpress tables
+*/
+.wp-block-table tr:first-child
+{
+  background-color: #f7f8f7;
+}
+
+/*
+* CSS Content of articles
+*/
+.content_article_full h2
+{
+  font-size: 2.25em;
+  color: #545454;
+}
+
+.content_article_full h3
+{
+  font-size: 2em;
+  color: #545454;
+}
+
+.content_article_full h4
+{
+  font-size: 1.75em;
+  color: #545454;
+}
+
+/*
+* Video player
+*/
+
+/*Si nous sommes en présence d'un écran d'ortinateur ou d'un mobile en mode landscape*/
+@media (orientation: landscape)
+{
+  .wp-block-video video
+  {
+    width: 100%;
+    height: 75vh;
+    background-color: black;
+  }
+}
+
+/*Si nous sommes en présence d'un écran au format portrait comme un smartphone ou tablette*/
+@media (orientation: portrait)
+{
+  .wp-block-video video
+  {
+    width: 100%;
+    height: auto;
+    background-color: black;
+  }
+}
+
+/*
+* Lengende d'image
+*/
+.wp-block-image figcaption
+{
+  color: #8b92a1;
+  text-align: center;
+  font-size: 1em;
+}
+
+/*
+* Citation
+*/
+@media (orientation: landscape)
+{
+  .wp-block-quote
+  {
+    font-size: 1.4em;
+    margin-top: 1.5em;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    font-family: Open Sans;
+    font-style: italic;
+    color: #555555;
+    padding: 1.2em 30px 1.2em 75px;
+    border-left: 8px solid #78C0A8 ;
+    line-height: 1.6;
+    position: relative;
+    background: #EDEDED;
+    width: 60%;
+    font-style: normal;
+  }
+}
+
+@media (orientation: portrait)
+{
+  .wp-block-quote
+  {
+    font-size: 1.4em;
+    margin-top: 1.5em;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    font-family: Open Sans;
+    font-style: italic;
+    color: #555555;
+    padding: 1.2em 30px 1.2em 75px;
+    border-left: 8px solid #78C0A8 ;
+    line-height: 1.6;
+    position: relative;
+    background: #EDEDED;
+    width: 100%;
+    font-style: normal;
+  }
+}
+
+.wp-block-quote::before
+{
+  font-family: Arial;
+  content: "\201C";
+  color: #78C0A8;
+  font-size: 4em;
+  position: absolute;
+  left: 10px;
+  top: -10px;
+}
+
+.wp-block-quote::after
+{
+  content: '';
+}
+
+.wp-block-quote cite
+{
+  display: block;
+  color: #555555;
+  font-style: italic;
+  font-weight: 400;
+  margin-top: 1em;
+}
+
+/*
+* Couplet / Verse
+*/
+.wp-block-verse
+{
+  font-size: 1.4em;
+  width: 100%;
+  margin-top: 1.5em;
+  margin-right: auto;
+  margin-bottom: 1.5em;
+  margin-left: auto;
+  font-family: Open Sans;
+  font-style: italic;
+  color: #555555;
+  padding-top: 1.2em;
+  padding-right: 2em;
+  padding-bottom: 1.2em;
+  padding-left: 2em;
+  border-left: 8px solid #78C0A8 ;
+  line-height: inherit;
+  position: relative;
+  background: #EDEDED;
+  height: 100%;
+}
+
+.wp-block-verse::after
+{
+  content: '';
+}
+
+pre.wp-block-verse
+{
+  white-space: pre-wrap !important;
+  word-wrap: break-word;
+  overflow: auto;
+}
+
+/*
+* Code styling wordpress
+*/
+.wp-block-code
+{
+  background: rgba(68,68,68,0.06);
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  width: 100%;
+}
+
+/*
+* Button Wordpress
+*/
+.wp-block-button a
+{
+  color: inherit !important;
+}
+
+/*
+* Citation en exégue
+*/
+@media (orientation: landscape)
+{
+  .wp-block-pullquote
+  {
+    background-color: #EDEDED !important;
+    border-left: 8px solid;
+    border-color: #78C0A8 !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    font-style: normal;
+  }
+}
+
+@media (orientation: portrait)
+{
+  .wp-block-pullquote
+  {
+    background-color: #EDEDED !important;
+    border-left: 8px solid;
+    border-color: #78C0A8 !important;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    font-style: normal;
+  }
+}
+
+.wp-block-pullquote blockquote cite
+{
+  color: #555555;
+  font-style: italic;
+  font-weight: 400;  
+}
+
+/*
+* File
+*/
+.wp-block-file a:visited
+{
+  color: #ffa500 !important;
+}

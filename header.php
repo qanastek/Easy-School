@@ -45,15 +45,7 @@
 
   <?php wp_head(); ?>
 
-  <style type="text/css">
-    a[href$='.pdf']
-    {
-      background: transparent url(<?php $url_2 = get_template_directory_uri() . '/img/pdf.gif' . '?1.0.0'; echo $url_2; ?>) center left no-repeat;
-      display: inline-block;
-      padding-left: 20px;
-      line-height: 20px;
-    }
-  </style>
+  <?php require "vues/css/extensions.php"; ?>
 
 </head>
 
@@ -74,53 +66,8 @@
           
         </button>
 
-        <!-- https://codex.wordpress.org/Creating_Horizontal_Menus -->
-        <div class="collapse navbar-collapse" id="navbarResponsive" style="width: 100%; font-size: 0.95em;"><!-- font-size: 15px; -->
-          <ul class="navbar-nav ml-auto">
-
-            <!-- Page d'accueil -->
-            <li class="nav-item">
-              <a class="nav-link" rel="canonical" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                Accueil
-              </a>
-            </li>
-
-            <!-- L'établissement -->
-            <li class="nav-item">
-              <a class="nav-link etablissement" rel="canonical" href="<?php echo get_permalink( get_page_by_path( 'presentation-de-letablissement' ) ) ?>">
-                L'établissement
-              </a>
-            </li>
-
-            <!-- L'actualité du moment -->
-            <li class="nav-item">
-              <a class="nav-link" rel="canonical" href="<?php echo get_permalink( get_page_by_path( 'lactualite-du-moment' ) ) ?>">
-                Actualités
-              </a>
-            </li>
-
-            <!-- Menu de la cantine -->
-            <li class="nav-item">
-              <a class="nav-link" rel="canonical" href="<?php echo get_permalink( get_page_by_path( 'menu-de-la-cantine' ) ) ?>">
-                Cantine
-              </a>
-            </li>
-
-            <!-- Calendrier -->
-            <li class="nav-item">
-              <a class="nav-link" rel="canonical" href="<?php echo get_permalink( get_page_by_path( 'calendrier' ) ) ?>">
-                Calendrier
-              </a>
-            </li>
-
-            <!-- Nous contacter -->
-            <li class="nav-item">
-              <a class="nav-link" rel="canonical" href="<?php echo get_permalink( get_page_by_path( 'nous-contacter' ) ) ?>">
-                Contact
-              </a>
-            </li>
-
-          </ul>
+        <div class="collapse navbar-collapse navBarStyle1" id="navbarResponsive" style="width: 100%; font-size: 0.95em;">
+          <?php NavbarItems(); ?>
         </div>
 
       </div>
