@@ -43,7 +43,7 @@ git clone https://github.com/qanastek/Easy-School
 
 or
 
-Downwload the [zip file](https://github.com/qanastek/Easy-School/archive/master.zip) from GitHub.
+Download the [zip file](https://github.com/qanastek/Easy-School/archive/master.zip) from GitHub.
 
 ### Step 2 - Install :
 
