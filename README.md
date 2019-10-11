@@ -75,9 +75,31 @@ Drop the theme in your WordPress theme folder.
 * Go into TablePress > Import
 * Import 2-tarifs-cantine-2019-03-31.csv
 
-## If you want to help for translating
+## Pictures
 
-[The Website](https://github.com/qanastek) - Comming Soon
+#### Home
+
+![Home](demo_pictures/home.jpg)
+
+#### Canteen prices
+
+![Canteen prices](demo_pictures/canteen_prices.png)
+
+#### News
+
+![News](demo_pictures/news.png)
+
+#### Blog Article
+
+![Blog Article](demo_pictures/article.jpg)
+
+#### Nexts Events Calendar
+
+![calendar](demo_pictures/calendar.png)
+
+#### Contact Us
+
+![Contact Us](demo_pictures/contact.png)
 
 ## Informations about the version 2 of this theme
 
