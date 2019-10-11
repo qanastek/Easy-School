@@ -77,27 +77,27 @@ Drop the theme in your WordPress theme folder.
 
 ## Pictures
 
-#### Home
+### Home
 
 ![Home](demo_pictures/home.jpg)
 
-#### Canteen prices
+### Canteen prices
 
 ![Canteen prices](demo_pictures/canteen_prices.png)
 
-#### News
+### News
 
 ![News](demo_pictures/news.png)
 
-#### Blog Article
+### Blog Article
 
 ![Blog Article](demo_pictures/article.jpg)
 
-#### Nexts Events Calendar
+### Nexts Events Calendar
 
 ![calendar](demo_pictures/calendar.png)
 
-#### Contact Us
+### Contact Us
 
 ![Contact Us](demo_pictures/contact.png)
 
