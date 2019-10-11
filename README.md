@@ -83,23 +83,23 @@ Drop the theme in your WordPress theme folder.
 
 ### Canteen prices
 
-![Canteen prices](demo_pictures/canteen_prices.png)
+![Canteen prices](demo_pictures/canteen_price_days.png)
 
 ### News
 
-![News](demo_pictures/news.png)
+![News](demo_pictures/news_feed.png)
 
 ### Blog Article
 
-![Blog Article](demo_pictures/article.jpg)
+![Blog Article](demo_pictures/blog_article.jpg)
 
 ### Nexts Events Calendar
 
-![calendar](demo_pictures/calendar.png)
+![calendar](demo_pictures/next_events_calendar.png)
 
 ### Contact Us
 
-![Contact Us](demo_pictures/contact.png)
+![Contact Us](demo_pictures/contact_us.png)
 
 ## Informations about the version 2 of this theme
 
