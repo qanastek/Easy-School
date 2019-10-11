@@ -52,7 +52,7 @@ if ( ! function_exists( 'easy_school_wp_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'easy_school_wp' ),
+			'menu-1' => esc_html__( 'Barre de navigation', 'easy_school_wp' ),
 		) );
 
 		/*
@@ -220,6 +220,11 @@ function additional_custom_styles()
 	*	Custom style colors
 	*/
     wp_enqueue_style( 'theme_color', get_template_directory_uri() . '/vues/css/theme_color.css' );
+
+    /**
+	*	Custom style for wordpress blocks
+	*/
+    wp_enqueue_style( 'wordpress_block_easy_school', get_template_directory_uri() . '/vues/css/easy-school-wordpress-block.css' );
 
     /**
 	*	Font Awesome
@@ -411,3 +416,33 @@ require 'controllers/general/gets.php';
 * Gets for custom posts
 */
 require 'controllers/custom_posts/gets.php';
+
+/*
+*	Création de la navbar
+*/
+function NavbarItems()
+{
+  $menu_name = 'menu-1';
+
+  if (($locations = get_nav_menu_locations()) && isset($locations[$menu_name]))
+  {
+      $menu = wp_get_nav_menu_object($locations[$menu_name]);
+      $menu_items = wp_get_nav_menu_items($menu->term_id);
+
+      $menu_list = '<ul class="navbar-nav ml-auto">' ."\n";
+
+      foreach ((array) $menu_items as $key => $menu_item)
+      {
+          $title = $menu_item->title;
+          $url = $menu_item->url;
+          $menu_list .= "\t\t\t\t\t". '<li class="nav-item"><a class="nav-link" rel="canonical" href="'. $url .'">'. $title .'</a></li>' ."\n";
+      }
+
+      $menu_list .= "\t\t\t". '</ul>' ."\n";
+  }
+  else
+  {
+      $menu_list = "<p style='color: white;'>Error Menu Doesn't Load</p>";
+  }
+  echo $menu_list;
+}

@@ -51,17 +51,9 @@ get_header();
 
 		</div>
 
-		<div class="row mb-1 content_article_full" style="padding-top: 1%;">
+		<div class="mb-1 content_article_full" style="padding-top: 1%;">
 
-			<div class="row pl-3">
-				<?php get_description_article(); ?>
-			</div>
-
-			<div class="row">
-
-				<?php display_gallery(); ?>
-				
-			</div>
+			<?php get_description_article(); ?>
 
 		</div>
 		

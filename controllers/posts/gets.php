@@ -1,30 +1,5 @@
 <?php
 
-function display_gallery()
-{
-	if (get_post_gallery())
-	{
-
-	    $gallery     = get_post_gallery( get_the_ID(), false );
-	    $galleryIDS  = $gallery['ids'];
-	    $pieces      = explode(",", $galleryIDS);
-
-	    foreach ($pieces as $key => $value )
-	    { 
-	    		// $image_small	 = wp_get_attachment_image_src( $value, 'thumbnail');
-		        // $image_medium = wp_get_attachment_image_src( $value, 'medium');
-		        $image_full      = wp_get_attachment_image_src( $value, 'full');
-
-		    echo '<div class="gallery-picture square col-md-4 col-sm-4 col-xs-12 col-xl-4" style="padding-top: 0.5%; padding-right: 0.5%; padding-left: 0.5%; padding-bottom: 0.5%;">
-		    	<a href="'. $image_full[0] .'"  rel="lightbox">
-					<img class="img_post_ratio" src="' . $image_full[0] . '">
-				</a>
-			</div>';
-	    }
-
-	}
-}
-
 function get_tag_display()
 {
 	/*Si il y au minimum un tag*/
@@ -194,17 +169,7 @@ function get_description_article()
 {
 	if (get_the_content())
 	{
-		$content_result = get_the_content();
-	    $chars_first = mb_strcut($content_result, 0, 13);
-
-	    if ($chars_first == "[gallery ids=")
-	    {
-	   		echo(__( "This article doesn't have a description.", 'easy_school_wp' ));
-	    }
-	    else
-	    {
-	    	the_content();
-	    }
+		the_content();
 	}
 	else
 	{

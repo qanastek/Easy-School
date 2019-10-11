@@ -160,14 +160,14 @@ get_header();
 					<?php
 
 						// Heure de départ de l'event
-						if (get_field( "event_date_start" ))
+						if (get_post_meta(get_the_ID(), "event_date_start" )[0])
 						{
-							$date_start = get_field( "event_date_start" );
+							$date_start = get_post_meta(get_the_ID(), "event_date_start" )[0];
 							$date_start = date("d-m-Y", strtotime($date_start));
 
-							if (get_field( "heure_de_debut" ))
+							if (get_post_meta(get_the_ID(), "heure_de_debut" )[0])
 							{
-								$hour_start = get_field( "heure_de_debut" );
+								$hour_start = get_post_meta(get_the_ID(), "heure_de_debut" )[0];
 							}
 							else
 							{
@@ -176,14 +176,14 @@ get_header();
 						}
 
 						// Heure de fin de l'event
-						if (get_field( "event_date_end" ))
+						if (get_post_meta(get_the_ID(), "event_date_end" )[0])
 						{
-							$date_end = get_field( "event_date_end" );
+							$date_end = get_post_meta(get_the_ID(), "event_date_end" )[0];
 							$date_end = date("d-m-Y", strtotime($date_end));
 
-							if (get_field( "heure_de_fin" ))
+							if (get_post_meta(get_the_ID(), "heure_de_fin" )[0])
 							{
-								$hour_end = get_field( "heure_de_fin" );
+								$hour_end = get_post_meta(get_the_ID(), "heure_de_fin" )[0];
 							}
 							else
 							{
@@ -201,7 +201,7 @@ get_header();
 
 					<i class="far fa-clock"></i> <b>Horraire:</b> <?php echo($hour_start); ?> à <?php echo($hour_end); ?> <br>
 					
-					<i class="fas fa-map-marker-alt"></i> <b>Lieu:</b> <?php echo get_field( "lieu" ); ?><br>
+					<i class="fas fa-map-marker-alt"></i> <b>Lieu:</b> <?php echo get_post_meta(get_the_ID(), "lieu" )[0]; ?><br>
 
 					<b>Participation:</b> <span style="text-transform: capitalize;"><?php GetPrice(); ?></span>
 				</p>

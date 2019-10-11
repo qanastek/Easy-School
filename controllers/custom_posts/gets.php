@@ -16,7 +16,7 @@ function GetCurrency()
 
 function GetPrice()
 {
-	$price = get_field( "price" );
+	$price = get_post_meta( get_the_ID(), "price" )[0];
 
 	if ($price)
 	{

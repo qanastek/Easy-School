@@ -27,14 +27,14 @@ get_header();
 
 			<div class="col-xs-12 col-sm-12 col-md-12 col-xl-12" style="overflow-x: auto; padding-right: 0px; padding-left: 0px;">
 
-				<!-- Tableau correspondant au menu de la cantine -->
-				<?php echo do_shortcode("[CanteenMenu]");  ?>
+				<?php the_content(); ?>
 
 			</div>
 
 		</div>
 		
 	</div>
+	
 	<?php endwhile; endif; ?>
 	
 </div>
