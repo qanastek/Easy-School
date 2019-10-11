@@ -175,7 +175,7 @@ get_header();
       
       <div class="row">
         
-        <div class="col-xs-12 col-sm-12 col-md-8 col-xl-8 pt-5" >
+        <div class="col-xs-12 col-sm-12 col-md-8 col-xl-8 pt-5 pb-5">
 
           <div class="row titleContent" style="background-color: #f7f8f7; margin-right: 2%;">
 
